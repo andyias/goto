@@ -1,11 +1,62 @@
-<mxfile host="app.diagrams.net" modified="2022-04-22T17:04:48.995Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="-brRwoLjlE1AcopGFAnq" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-22T17:36:32.884Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="AcDmjzIPKl-MZCrY4VDR" version="17.4.6" type="github">
   <diagram id="d3B2r7KNono-pbao2PZU" name="Page-1">
     <mxGraphModel dx="868" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="VDDgsNn1SK-YkVnJ0O-6-1" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;direction=south;rotation=-90;strokeColor=#2B32FF;" vertex="1" parent="1">
-          <mxGeometry x="32.46" y="127.54" width="124.92" height="90.17" as="geometry" />
+        <mxCell id="VDDgsNn1SK-YkVnJ0O-6-1" value="ID&lt;br&gt;Email&lt;br&gt;Password" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;direction=south;rotation=-90;strokeColor=#2B32FF;fontColor=#5498FF;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="124.92" height="90.17" as="geometry" />
+        </mxCell>
+        <mxCell id="VDDgsNn1SK-YkVnJ0O-6-6" value="ACCOUNTS" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#2B32FF;" vertex="1" parent="1">
+          <mxGeometry x="62.46" y="135.09" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VDDgsNn1SK-YkVnJ0O-6-9" value="OFFERS" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#5498FF;strokeColor=#2B32FF;" vertex="1" parent="1">
+          <mxGeometry x="400" y="30" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VDDgsNn1SK-YkVnJ0O-6-23" value="order number&lt;br&gt;subtotal&lt;br&gt;shipping cost&lt;br&gt;name&lt;br&gt;sku&lt;br&gt;condition&lt;br&gt;size&lt;br&gt;order date&lt;br&gt;shipping address&lt;br&gt;ups tracking" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontColor=#5498FF;strokeColor=#2B32FF;" vertex="1" parent="1">
+          <mxGeometry x="340" y="300" width="200" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="VDDgsNn1SK-YkVnJ0O-6-24" value="orders&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#5498FF;strokeColor=#2B32FF;" vertex="1" parent="1">
+          <mxGeometry x="380" y="260.17" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VDDgsNn1SK-YkVnJ0O-6-25" value="account&lt;br&gt;action&lt;br&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontColor=#5498FF;strokeColor=#2B32FF;" vertex="1" parent="1">
+          <mxGeometry x="600" y="150" width="230" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="VDDgsNn1SK-YkVnJ0O-6-26" value="FAILED JOBS" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#5498FF;strokeColor=#2B32FF;" vertex="1" parent="1">
+          <mxGeometry x="650" y="75.09" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VDDgsNn1SK-YkVnJ0O-6-28" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#5498FF;entryX=0;entryY=0.421;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="VDDgsNn1SK-YkVnJ0O-6-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="270" as="sourcePoint" />
+            <mxPoint x="470" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VDDgsNn1SK-YkVnJ0O-6-29" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#5498FF;entryX=0;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" edge="1" parent="1" target="VDDgsNn1SK-YkVnJ0O-6-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="240" as="sourcePoint" />
+            <mxPoint x="310" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VDDgsNn1SK-YkVnJ0O-6-8" value="Offer-id&lt;br&gt;title&amp;nbsp;&lt;br&gt;offer price&lt;br&gt;item link&lt;br&gt;item image&lt;br&gt;item sku&lt;br&gt;size&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontColor=#5498FF;strokeColor=#2B32FF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="80.09" width="220" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="VDDgsNn1SK-YkVnJ0O-6-30" value="TITLE&lt;br&gt;PRICE&lt;br&gt;IMAGE&lt;br&gt;SKU&lt;br&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontColor=#5498FF;strokeColor=#2B32FF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="460" width="220" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="VDDgsNn1SK-YkVnJ0O-6-31" value="STORAGE" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fontColor=#5498FF;strokeColor=#2B32FF;" vertex="1" parent="1">
+          <mxGeometry x="130" y="420" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VDDgsNn1SK-YkVnJ0O-6-35" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#5498FF;" edge="1" parent="1" source="VDDgsNn1SK-YkVnJ0O-6-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="290" as="sourcePoint" />
+            <mxPoint x="180" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="390" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
